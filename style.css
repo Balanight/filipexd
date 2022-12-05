@@ -34,6 +34,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    animation: moveBanner 1s 1.1s forwards;
 }
 
 .line{
@@ -134,26 +135,21 @@ header{
 }
 
 .sidebar{
-    width: 20rem;
+    width: 18.5rem;
     height: 100vh;
-    
+    background-color: #FFFFFF;
     position: fixed;
     top: 0;
     right: 0;
+    display: none;
 }
 
 
 .menu{
     position: absolute;
     top: 50%;
-    left:55%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
-    background-color: #fff;
-    background-position: absolute;
-    width: 19rem;
-    height: 100vh;
-    padding-top: 20rem
 }
 
 .menu-item{
@@ -164,7 +160,7 @@ header{
 .menu-link{
     font-family: var(--font-action);
     font-size: 2rem;
-    color: #555;
+    color: #000000;
     transition: color 1s;
 }
 
