@@ -1,5 +1,5 @@
 function menuShow() {
-    let menuMobile = document.querySelector('.sidebar, .menu');
+    let menuMobile = document.querySelector('.menu, .sidebar');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
         document.querySelector('.icon').src = "HamburgerB36px.svg";
